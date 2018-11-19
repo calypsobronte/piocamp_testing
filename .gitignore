@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8aa8c5801e236e8d7ea59f06c46fee2e1e0826d0
 # Created by https://www.gitignore.io/api/node
 
 ### Node ###
@@ -64,4 +68,7 @@ coverage.lcov
 package-lock.json
 
 # End of https://www.gitignore.io/api/node
+<<<<<<< HEAD
 # Calypso Bronte
+=======
+>>>>>>> 8aa8c5801e236e8d7ea59f06c46fee2e1e0826d0

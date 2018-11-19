@@ -14,4 +14,8 @@ buttonGuess.addEventListener("click", function () {
     <td>${result}</td>
   </tr>
   `;
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> 8aa8c5801e236e8d7ea59f06c46fee2e1e0826d0

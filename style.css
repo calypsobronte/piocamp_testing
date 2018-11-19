@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 table {
   border-collapse: collapse;
   width: 100%;
@@ -21,3 +22,17 @@ th {
     width: 100px;
     padding: 6px;
   }
+=======
+table, td, th {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
+
+th {
+  text-align: left;
+}
+>>>>>>> 8aa8c5801e236e8d7ea59f06c46fee2e1e0826d0
