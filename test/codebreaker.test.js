@@ -1,11 +1,8 @@
 // Import test
 let test = require('assert');
-<<<<<<< HEAD
 // var codebreaker = require('../codebreaker');
 var guess = require('../codebreaker');
-=======
-var codebreaker = require('../codebreaker');
->>>>>>> 8aa8c5801e236e8d7ea59f06c46fee2e1e0826d0
+
 
 describe('Test pass', function () {
   it('is true', function () {
@@ -14,7 +11,7 @@ describe('Test pass', function () {
   })
 })
 
-<<<<<<< HEAD
+
 describe('Codebreaker Test', function(){
 
   // beforeEach(function () {
@@ -76,21 +73,4 @@ describe('Codebreaker Test', function(){
   test.equal(result, "xxxx", "Tiene los numeros en la posicion correcta");
   })
 
-=======
-describe('Codebreaker Test', function () {
-
-  beforeEach(function () {
-    codebreaker.setNumber('5612')
-  })
-
-  it('Debe retornar un o', function () {
-    let result = codebreaker.guess("0981");
-    test.equal(result, "o", "Tiene mas o menos de un numero correcto en la posicion equivocada");
-  })
-
-  it('Debe retornar un ox', function () {
-    let result = codebreaker.guess("1928");
-    test.equal(result, "ox", "Esta equivocado");
-  })
->>>>>>> 8aa8c5801e236e8d7ea59f06c46fee2e1e0826d0
 })
